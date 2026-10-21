@@ -1,7 +1,37 @@
 {
   "version": 1,
   "missions": [
-    { "id": "m009", "title": "50勝チャレンジ", "description": "対戦に合計50回勝つ", "type": "win_any", "target": 50, "reward": { "type": "currency", "amount": 5000 } },
-    { "id": "m0010", "title": "50勝チャレンジ", "description": "対戦に合計50回勝つ", "type": "win_any", "target": 50, "reward": { "type": "currency", "amount": 5000 } }
+    { "id": "m001", "title": "チュートリアルを終えよう", "description": "AI対戦のチュートリアルを最後まで遊ぶ", "type": "tutorial_ai", "target": 1, "reward": { "type": "currency", "amount": 300 } },
+
+    { "id": "m002", "title": "はじめての勝利", "description": "AI対戦で1回勝つ", "type": "ai_win", "target": 1, "reward": { "type": "currency", "amount": 300 } },
+    { "id": "m002b", "title": "AI対戦で3勝", "description": "AI対戦で合計3回勝つ", "type": "ai_win", "target": 3, "requires": "m002", "reward": { "type": "currency", "amount": 300 } },
+    { "id": "m002c", "title": "AI対戦で10勝", "description": "AI対戦で合計10回勝つ", "type": "ai_win", "target": 10, "requires": "m002b", "reward": { "type": "currency", "amount": 600 } },
+    { "id": "m002d", "title": "AI対戦で30勝", "description": "AI対戦で合計30回勝つ", "type": "ai_win", "target": 30, "requires": "m002c", "reward": { "type": "currency", "amount": 1500 } },
+
+    { "id": "m003", "title": "AI対戦に慣れよう", "description": "AI対戦を3回遊ぶ", "type": "ai_play", "target": 3, "reward": { "type": "currency", "amount": 200 } },
+    { "id": "m003b", "title": "AI対戦に慣れようその2", "description": "AI対戦を合計10回遊ぶ", "type": "ai_play", "target": 10, "requires": "m003", "reward": { "type": "currency", "amount": 400 } },
+    { "id": "m003c", "title": "友達おらんのやね", "description": "AI対戦を合計30回遊ぶ", "type": "ai_play", "target": 30, "requires": "m003b", "reward": { "type": "currency", "amount": 1000 } },
+
+    { "id": "m004", "title": "パックを開封しよう", "description": "3パック引く", "type": "gacha_pull", "target": 3, "reward": { "type": "currency", "amount": 300 } },
+    { "id": "m004b", "title": "BOX買い!", "description": "10パック引く", "type": "gacha_pull", "target": 10, "requires": "m004", "reward": { "type": "currency", "amount": 500 } },
+    { "id": "m004c", "title": "金欠なるで", "description": "30パック引く", "type": "gacha_pull", "target": 30, "requires": "m004b", "reward": { "type": "currency", "amount": 1000 } },
+
+    { "id": "m005", "title": "自分のデッキを作ろう", "description": "新しいデッキを作って保存する", "type": "deck_saved", "target": 1, "reward": { "type": "currency", "amount": 200 } },
+
+    { "id": "m006", "title": "オンライン対戦デビュー", "description": "オンライン対戦を1回遊ぶ", "type": "online_play", "target": 1, "reward": { "type": "currency", "amount": 300 } },
+    { "id": "m006b", "title": "オンラインで初勝利", "description": "オンライン対戦で1回勝つ", "type": "online_win", "target": 1, "requires": "m006", "reward": { "type": "currency", "amount": 500 } },
+    { "id": "m006c", "title": "オンラインで5勝", "description": "オンライン対戦で合計5回勝つ", "type": "online_win", "target": 5, "requires": "m006b", "reward": { "type": "currency", "amount": 1000 } },
+    { "id": "m006d", "title": "オンラインで20勝", "description": "オンライン対戦で合計20回勝つ", "type": "online_win", "target": 20, "requires": "m006c", "reward": { "type": "currency", "amount": 3000 } },
+
+    { "id": "m007", "title": "初心者", "description": "10種類のカードを持つ", "type": "owned_distinct", "target": 10, "reward": { "type": "currency", "amount": 500 } },
+    { "id": "m007b", "title": "カード好き", "description": "50種類のカードを持つ", "type": "owned_distinct", "target": 50, "requires": "m007", "reward": { "type": "currency", "amount": 1000 } },
+    { "id": "m007c", "title": "2部マニア", "description": "100種類のカードを持つ", "type": "owned_distinct", "target": 100, "requires": "m007b", "reward": { "type": "currency", "amount": 2000 } },
+    { "id": "m007d", "title": "店開けるで多分", "description": "全種類のカードを持つ", "type": "owned_distinct", "target": 157, "requires": "m007c", "reward": { "type": "currency", "amount": 4000 } },
+
+    { "id": "m008", "title": "10勝チャレンジ", "description": "対戦に合計10回勝つ", "type": "win_any", "target": 10, "reward": { "type": "currency", "amount": 1000 } },
+    { "id": "m008b", "title": "15勝チャレンジ", "description": "対戦に合計15回勝つ", "type": "win_any", "target": 15, "requires": "m008", "reward": { "type": "currency", "amount": 1200 } },
+    { "id": "m008c", "title": "20勝チャレンジ", "description": "対戦に合計20回勝つ", "type": "win_any", "target": 20, "requires": "m008b", "reward": { "type": "currency", "amount": 1500 } },
+    { "id": "m008d", "title": "30勝チャレンジ", "description": "対戦に合計30回勝つ", "type": "win_any", "target": 30, "requires": "m008c", "reward": { "type": "currency", "amount": 2500 } },
+    { "id": "m008e", "title": "50勝チャレンジ", "description": "対戦に合計50回勝つ", "type": "win_any", "target": 50, "requires": "m008d", "reward": { "type": "currency", "amount": 5000 } }
   ]
 }
