@@ -1,1 +1,6 @@
-
+{
+  "messages": [
+    { "id": "m001", "title": "テストプレイへの感謝", "body": "あざす", "date": "2026/10/22",
+      "giftType": "currency", "giftAmount": 3000 }
+  ]
+}
