@@ -1,1 +1,7 @@
-
+{
+  "version": 1,
+  "missions": [
+    { "id": "m009", "title": "50勝チャレンジ", "description": "対戦に合計50回勝つ", "type": "win_any", "target": 50, "reward": { "type": "currency", "amount": 5000 } },
+    { "id": "m0010", "title": "50勝チャレンジ", "description": "対戦に合計50回勝つ", "type": "win_any", "target": 50, "reward": { "type": "currency", "amount": 5000 } }
+  ]
+}
