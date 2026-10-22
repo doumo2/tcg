@@ -4,6 +4,7 @@
     { "id": "m001", "title": "入部祝い", "body": "楽しんでください", "date": "2026/10/22",
       "giftType": "currency", "giftAmount": 1500 },
     { "id": "m002", "title": "テストプレイ感謝", "body": "あざす", "date": "2026/10/22",
-      "giftType": "currency", "giftAmount": 3000}
+      "giftType": "currency", "giftAmount": 3000},
+    { "id": "m003", "title": "var 0.1.7のお知らせ", "body": "・墓場のカードが画面内に収まらない不具合の修正/n・場にカードが収まらない不具合の修正/nUIの表示の不具合の修正/n・その他全体的な調整", "date": "2026/10/22"}
   ]
 }
