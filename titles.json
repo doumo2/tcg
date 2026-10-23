@@ -3,6 +3,10 @@
   "titles": [
     { "id": "t_developer", "name": "開発者", "description": "何人たりとも邪魔することは許されない", "hidden": true },
     { "id": "t_testplayer_2", "name": "鰹の袋叩き", "description": "テストプレイのお礼", "hidden": true },
-    { "id": "t_testplayer_3", "name": "モルカー", "description": "テストプレイのお礼", "hidden": true }
+    { "id": "t_testplayer_3", "name": "モルカー", "description": "テストプレイのお礼", "hidden": true },
+    { "id": "t_rookie", "name": "新入部員", "description": "はじめて遊んだ証" },
+    { "id": "t_ai_champion", "name": "AI殺し", "description": "AI対戦でたくさん勝った" },
+    { "id": "t_online_hero", "name": "オンラインの覇者", "description": "オンライン対戦でたくさん勝った" },
+    { "id": "t_collector", "name": "カード収集家", "description": "たくさんのカードを集めた" }
   ]
 }
