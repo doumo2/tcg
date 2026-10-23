@@ -1,1 +1,8 @@
-
+{
+  "version": 1,
+  "titles": [
+    { "id": "t_developer", "name": "開発者", "description": "何人たりとも邪魔することは許されない", "hidden": true }
+    { "id": "t_testplayer_2", "name": "鰹の袋叩き", "description": "テストプレイのお礼", "hidden": true },
+    { "id": "t_testplayer_3", "name": "モルカー", "description": "テストプレイのお礼", "hidden": true },
+  ]
+}
