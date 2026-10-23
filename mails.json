@@ -8,7 +8,7 @@
     { "id": "m004", "title": "var 0.1.7のお知らせ", "body": "・墓場のカードが画面内に収まらない不具合の修正\n・場にカードが収まらない不具合の修正\n・UIの表示の不具合の修正\n・その他全体的な調整", "date": "2026/10/22"},
     { "id": "m005", "title": "一旦ね", "body": "加藤さんに頼まれたので", "date": "2026/10/22",
       "giftType": "currency", "giftAmount": 30000},
-    { "id": "m005", "to": "DRJ8-N8VV", "title": "テスト", "body": "自分のみ表示", "date": "2026/10/23",
+    { "id": "m006", "to": "DRJ8-N8VV", "title": "テスト", "body": "自分のみ表示", "date": "2026/10/23",
       "giftType": "title", "cardID": "t_developer", "giftAmount": 1}
   ]
 }
