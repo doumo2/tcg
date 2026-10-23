@@ -9,6 +9,6 @@
     { "id": "m005", "title": "一旦ね", "body": "加藤さんに頼まれたので", "date": "2026/10/22",
       "giftType": "currency", "giftAmount": 30000},
     { "id": "m006", "to": "DRJ8-N8VV", "title": "テスト", "body": "自分のみ表示", "date": "2026/10/23",
-      "giftType": "title", "giftAmount": 1, "giftCardID": "t_developer"}
+      "giftType": "title", "giftAmount": 1, "giftCardId": "t_developer"}
   ]
 }
